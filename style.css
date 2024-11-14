@@ -1,0 +1,90 @@
+
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2D4B24;
+            color: white;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-image: url('./img/Asset_14x-8_1.png');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Overlay effect */
+        .overlay {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            /* background-color: rgba(45, 75, 36, 0.85); */
+            background-color: rgb(12 49 1 / 82%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        /* Logo styling for left alignment */
+        .logo-left {
+            position: absolute;
+            left: 0;
+           }
+
+        .right{
+           
+            position: absolute;
+            right: 0;
+        }
+        .header-content {
+            right: 50px !important;
+            right: 0;
+            margin-right: 300px;
+            
+        }
+
+        .logo-text {
+            text-align: center;
+        }
+
+        /* Title and description */
+        .title {
+            font-size: 40px;
+            font-weight: bold;
+            margin: 20px 0 20px;
+        }
+
+        .page-status {
+            font-size: 45px;
+            margin-bottom: 20px;
+            font-weight: 100;
+        }
+
+        /* Contact info */
+        .contact-info {
+            position: absolute;
+            bottom: 50px;
+            left: 400px;
+            font-size: 18px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
